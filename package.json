@@ -1,0 +1,18 @@
+{
+  "name": "custom-jest-transformer",
+  "version": "1.0.0",
+  "description": "Custom Jest transformer example",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production"
+  },
+  "keywords": [],
+  "author": "Jan Grzegorowski",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
