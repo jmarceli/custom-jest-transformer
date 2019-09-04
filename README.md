@@ -27,3 +27,17 @@ npm run build-dev
 ```sh
 node dist/bundle.js
 ```
+
+## Testing
+
+```sh
+npm run test
+```
+
+## License
+
+MIT
+
+---
+
+author: Jan Grzegorowski
